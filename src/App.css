@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+.top-header{
+    /*background-color: red;*/
+}
+.info-box{
+    /*background-color: blue;*/
+    display: flex;
+    justify-content: center;
+}
+.payment-box{
+    /*background-color: green;*/
+}
+.timer-box{
+    /*background-color: yellow;*/
+}
+.footer{
+    /*background-color: orange;*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image:
+    linear-gradient(to left, rgba(255,255,255,0)10%, rgba(255,255,255,1)),
+    url("../public/background.jpg");
+    /*linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));*/
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.custom-timer{
+    background: white;
+    border-radius: 30px;
+    height: 100px;
+    width: 400px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clock-item{
+    background: gray;
+    height: 30px;
+    width: 30px;
 }
